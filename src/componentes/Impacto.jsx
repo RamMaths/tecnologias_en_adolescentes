@@ -5,9 +5,12 @@ import {
     Card
 } from "react-bootstrap";
 
-import './Impacto.css';
+import "./Impacto.css";
 
 const Impacto = () => {
+
+    const cardHeight = "13em";
+
     return (
         <Container className="pt-5">
             <Row>
@@ -18,7 +21,7 @@ const Impacto = () => {
             <Row className="row row-cols-3 pt-5 justify-content-center align-items-center">
                 <Col>
                     <Container className="w-100">
-                        <Card className="card" style={{ width: '18em', minHeight: '10em' }}>
+                        <Card className="card" style={{ width: "22em", minHeight: cardHeight }}>
                           <Card.Body>
                             <Card.Title>Comunicación</Card.Title>
                             <Card.Text>
@@ -32,7 +35,7 @@ const Impacto = () => {
                 </Col>
                 <Col>
                     <Container>
-                        <Card className="card" style={{ width: '18em', minHeight: "20em" }}>
+                        <Card className="card" style={{ width: "22em", minHeight: cardHeight }}>
                           <Card.Body>
                             <Card.Title>Educación</Card.Title>
                             <Card.Text>
@@ -45,7 +48,7 @@ const Impacto = () => {
                 </Col>
                 <Col>
                     <Container className="w-100">
-                        <Card className="card" style={{ width: '18em', minHeight: '20em' }}>
+                        <Card className="card" style={{ width: "22em", minHeight: cardHeight }}>
                           <Card.Body>
                             <Card.Title>Entretenimiento</Card.Title>
                             <Card.Text>
@@ -58,7 +61,7 @@ const Impacto = () => {
                 </Col>
                 <Col>
                     <Container>
-                        <Card className="card" style={{ width: '18em', minHeight: "20em" }}>
+                        <Card className="card" style={{ width: "22em", minHeight: cardHeight }}>
                           <Card.Body>
                             <Card.Title>Socialización</Card.Title>
                             <Card.Text>
@@ -71,7 +74,7 @@ const Impacto = () => {
                 </Col>
                 <Col>
                     <Container className="w-100">
-                        <Card className="card" style={{ width: '18em', minHeight: '20em' }}>
+                        <Card className="card" style={{ width: "22em", minHeight: cardHeight }}>
                           <Card.Body>
                             <Card.Title>Desarrollo de habilidades</Card.Title>
                             <Card.Text>
@@ -84,7 +87,7 @@ const Impacto = () => {
                 </Col>
                 <Col>
                     <Container>
-                        <Card className="card" style={{ width: '18em', minHeight: "20em" }}>
+                        <Card className="card" style={{ width: "22em", minHeight: cardHeight }}>
                           <Card.Body>
                             <Card.Title>Riesgos y precauciones</Card.Title>
                             <Card.Text>

@@ -1,4 +1,3 @@
-import './App.css';
 import image from '../img/OIP.jpg';
 
 const Recursos = () => {
@@ -23,7 +22,7 @@ const Recursos = () => {
         }
       ];
     return (
-            <div className="recursos-container">
+            <div className="recursos-container mt-5">
                 <div className='recursos-titulo'>Recursos para un uso Responsable del Internet</div>
                 <ul>
                 {recursos.map((recurso, index) => ( 

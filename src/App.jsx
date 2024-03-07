@@ -9,27 +9,16 @@ import React from 'react';
 import Recursos from './componentes/Recursos';
 import Consejos from './componentes/Consejos'; // Import Consejos component
 
-
-function App() {
-
-//css
-import Introduccion from './componentes/Introduccion';
-import Plataformas from './componentes/Plataformas';
-import Impacto from './componentes/Impacto';
-
 function App() {
   return (
     <>
         <Introduccion/>
         <Plataformas/>
         <Impacto/>
-	<Recursos />
-	<Consejos />
+        <Recursos />
+        <Consejos />
     </>
   )
-}
-
-export default App
 }
 
 export default App;
