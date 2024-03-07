@@ -1,6 +1,17 @@
 // css
 import './App.css'
 
+//componentes y librerías
+import Introduccion from './componentes/Introduccion';
+import Plataformas from './componentes/Plataformas';
+import Impacto from './componentes/Impacto';
+import React from 'react';
+import Recursos from './componentes/Recursos';
+import Consejos from './componentes/Consejos'; // Import Consejos component
+
+
+function App() {
+
 //css
 import Introduccion from './componentes/Introduccion';
 import Plataformas from './componentes/Plataformas';
@@ -12,8 +23,13 @@ function App() {
         <Introduccion/>
         <Plataformas/>
         <Impacto/>
+	<Recursos />
+	<Consejos />
     </>
   )
 }
 
 export default App
+}
+
+export default App;
